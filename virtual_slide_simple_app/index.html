@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Virtual Slides</title>
+</head>
+<body>
+  <div id="openseadragon1" style="width: 800px; height: 600px;"></div>
+  <script src="js/openseadragon/openseadragon.min.js"></script>
+  <script type="text/javascript">
+      var viewer = OpenSeadragon({
+          id: "openseadragon1",
+          prefixUrl: "js/openseadragon/images/",
+          tileSources: "./images/tumor_1.dzi",
+          showNavigator:  false
+      });
+  </script>  
+</body>
+
+</html>
